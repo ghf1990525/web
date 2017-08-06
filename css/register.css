@@ -1,0 +1,141 @@
+html,body{
+	height:100%;
+}
+body{
+	 background:url(../images/reg_log/login_background.jpg) no-repeat;
+	 background-size:100% 100%;
+}
+
+div.img{
+	 height:100px;
+	 width:300px;
+	 background:url(../images/reg_log/nav-logo.png) no-repeat;
+	 background-size:50% 50%;
+	 position:relative;
+	 top:50px;
+	 left:50px;
+}
+div.register{
+	 background-color:white;
+	 font-size:25px;
+	 border:2px solid red;
+	 border-right:0;
+	 border-bottom:0;
+	 border-left:0;
+	 position:absolute;
+	 padding:0px 30px;
+	 right:200px;
+	 bottom:100px;
+}
+.register>div:nth-child(1){
+	 margin-top:20px;
+	 padding:5px 0px;
+}
+.register>div:nth-child(1) hr{
+	 display:inline-block;
+	 background-color:hotpink;
+	 height:22px;
+	 width:3px;
+     position:relative;
+     top:5px;
+}
+.register>div:nth-child(1) span{
+	 font-weight:bold;
+	 margin-left:5px;
+
+}
+.register form>div:nth-child(odd){
+	 margin-top:20px;
+}
+.register form>div:nth-child(even){
+	 font-size:13px;
+	 color:red;
+}
+.register form>div:nth-child(3){
+	 display:flex;
+	 border:none;
+}
+.register form>div:nth-child(3)>div:nth-child(1) input{
+	 width:55%;
+}
+.register form>div:nth-child(3)>div:nth-child(2){
+	 border-radius:10px;
+	 line-height:40px;
+	 text-align:center;
+	 margin-left:-83px;
+	 border:1px solid;
+	 width:70px;
+	 visibility:hidden;
+}
+.register form>div:nth-child(3)>div:nth-child(3){
+	 background-color:#ff6666;
+	 border-radius:10px;
+	 line-height:40px;
+	 width:125px;
+	 text-align:center;
+	 color:white;
+	 margin-left:5px;
+	 cursor:default;
+}
+.valider-padding1{
+     padding:0px 6px;
+}
+.valider-padding2{
+     padding:0px 12px;
+}
+/* 按钮 */
+.register form>div:last-child{
+	 background-color:red;
+	 border-radius:10px;
+	 line-height:40px;
+	 text-align:center;
+	 color:white;
+	 cursor:default;
+}
+.icon-shouji,.icon-erweimamingpian,.icon-mima{
+	 font-size:20px;
+	 color:red;
+	 position:absolute;
+	 left:28px;
+	 padding:6px 0px 6px 6px;
+	 padding-right:5px;
+	 border:1px solid red;
+	 border-top:0;
+	 border-bottom:0;
+	 border-left:0;
+}
+input{
+	 font-size:22px;
+	 outline:none;
+	 width:380px;
+	 line-height:40px;
+	 border:1px solid red;
+	 border-radius:5px;
+	 padding-left:38px;
+}
+.register>div:nth-child(3){
+	  font-size:13px;
+	  color:blue;
+	  float:left;
+	  margin-top:5px;
+	  margin-bottom:20px;
+	  cursor:default;
+}
+.register>div:nth-child(4){
+	  margin-top:5px;
+	  font-size:13px;
+	  float:right;
+}
+.register>div:nth-child(4) span:nth-child(2){
+	  color:blue;
+	  margin-left:3px;
+}
+/* 密码隐藏显示效果 */
+.icon-mimayincang,.icon-password-show{
+	  font-size:20px;
+	  position:relative;
+	  right:35px;
+}
+.icon-password-show{
+	  display:none;
+}
